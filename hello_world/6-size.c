@@ -1,10 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - "prints the size of various types on the computer it is compiled and run on."
+ * main - "prints the size of various types"
  *
  * Return: 0
  */
+
 int main(void)
 { printf("Size of a char: 1 Byte(s)\n", sizeof(char));
         printf("Size of an int: 4 Byte(s)\n", sizeof(int));
@@ -13,4 +14,5 @@ int main(void)
 	printf("Size of a float: 4 Byte(s)\n",sizeof(float));
 
 	return (0);
+
 }
