@@ -14,16 +14,14 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	lastd = n % 10;
+	lastdigit = n % 10;
 
-	if (lastd n % 10 > 5);
-		printf("Last digit of %d is %d and is greater than 5\n", n, lastd n % 10);
-
-	else if (lastd = n % 10 == 0);
-		printf("Last digit of %d is %d and is 0\n", n, lastd n % 10);
-		
-	else (lastd = n % 10 < 6 && lastd  != 0);
-		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, lastd n % 10);
+	if (lastdigit > 5)
+		printf("if the last digit of n is greater than 5: the string and is greater than 5\n");
+	else if (lastdigit == 0)
+		printf("if the last digit of n is 0: the string and is 0\n");
+	else 
+		printf("if the last digit of n is less than 6 and not 0: the string and is less than 6 and not 0\n");
 
 	return (0);
 }
