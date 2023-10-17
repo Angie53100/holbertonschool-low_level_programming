@@ -6,7 +6,7 @@
  *
  * Return: 0
  */
-int main(char num)
+int main(int i,char num)
 { 
 	for (num = 0; num < 10; num++)
 	{
