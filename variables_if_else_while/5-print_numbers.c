@@ -6,11 +6,14 @@
  *
  * Return: 0
  */
-int main(void)(char num)
+int main(void)
+
+(char n)
+
 { 
-	for (num = 0; num < 10; num++)
+	for (n = 0; n < 10; n++)
 	{
-		putchar(num);
+		putchar(n);
 	}
 
 	        putchar('\n');
